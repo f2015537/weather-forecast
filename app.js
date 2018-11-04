@@ -27,7 +27,7 @@ geocode.geocodeAddress(argv.a, (errorMessage, results) => {
         console.log(errorMessage)
       } else {
         const { temperature, apparentTemperature } = weatherResults
-        console.log(`It's currently ${temperature} but it feels like ${apparentTemperature}`)
+        console.log(`It's currently ${temperature} degrees celcius but it feels like ${apparentTemperature} degrees celcius`)
       }
     })
   }
